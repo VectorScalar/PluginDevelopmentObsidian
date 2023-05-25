@@ -18,7 +18,8 @@
       "ES7"
     ]
   },
-  "include": [
-    "**/*.ts"
-  ]
+  "include": ["src/**/*"],
+  "paths": {
+    "src": ["src/*"]
+}
 }
